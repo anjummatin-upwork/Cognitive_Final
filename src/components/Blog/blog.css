@@ -1,0 +1,99 @@
+.blog-main-container {
+    min-height: 100vh;
+    background: #f8f8f8;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.blog-top-heading {
+    font-size: 48px;
+    color: #032e54;
+    margin-bottom: 15px;
+}
+
+.blog-top-short-description {
+    font-size: 16px;
+    color: #032e54;
+    margin-top: 17px !important;
+    margin-bottom: 15px !important;
+}
+
+.subscribe-link {
+    color: #032e54;
+    font-weight: 500 !important;
+    font-size: 17px;
+}
+
+.blog-container {
+    opacity: 0.8;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 15px 12px;
+    margin-top: 35px !important;
+    background-image: linear-gradient( rgba(2, 30, 54, 0.829), rgba(2, 30, 54, 0.829)), url("../Files/blogbg.png");
+    background-size: cover;
+    object-fit: cover;
+}
+
+.category-tag {
+    background: rgba(165, 165, 165, 0.329);
+    padding: 5px 8px;
+    border-radius: 8px;
+}
+
+.category-tag:first-child {
+    margin-right: 10px;
+}
+
+.blog-article-part {
+    margin-top: 15px;
+}
+
+.blog-article-description {
+    margin-top: 10px !important;
+    font-weight: 300 !important;
+}
+
+.blog-article-left-part {
+    width: 80%;
+}
+
+.blog-article-right-part {
+    width: 20%;
+    text-align: right;
+}
+
+
+/* Checkbox Style part */
+
+.filter-column {
+    padding-left: 30px !important;
+}
+
+.checkbox-outer-container {
+    margin-top: 47px;
+}
+
+.filter-heading {
+    margin-top: 17px !important;
+    color: #032e54;
+    font-weight: 500 !important;
+}
+
+.checkbox-inner-container {
+    margin-bottom: 15px;
+    color: #032e54;
+    font-size: 19px;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+.checkbox-inner-container>.checkbox-label input[type="checkbox"] {
+    height: 19px;
+    width: 19px;
+    margin-right: 10px;
+}

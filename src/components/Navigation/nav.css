@@ -1,0 +1,185 @@
+/* // ----- Header Desktop style start -----// */
+
+.header-main-container {
+  height: 70px;
+  width: 100%;
+  padding: 0;
+  background: #032e54;
+}
+.main-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 96%;
+  max-width: 1320px;
+  height: 100%;
+  margin: auto;
+}
+
+.logo {
+  color: rgb(248, 247, 247);
+  cursor: pointer;
+  font-size: 35px;
+  font-weight: 400;
+  font-family: "Lobster", cursive;
+}
+.menu-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding-top: 8px;
+}
+.menu-li {
+  display: inline-block;
+}
+.menu-a {
+  padding: 15px 30px 5px 30px;
+  display: inline-block;
+  color: rgb(248, 247, 247);
+  font-size: 17px;
+  border-bottom: 1px solid transparent;
+  transition: 0.4s;
+  text-decoration: none;
+}
+.menu-a:hover {
+  border-bottom: 1px solid rgb(248, 247, 247);
+  color: rgb(248, 247, 247);
+  transition: 0.4s;
+}
+
+.user-icon {
+  cursor: pointer;
+  font-size: 30px;
+  color: rgb(248, 247, 247);
+  margin-left: 15px;
+}
+
+.sub-menu-link {
+  text-decoration: none;
+  color: #032e54 !important;
+  width: 100px !important;
+}
+.sub-menu-link:hover {
+  color: #032e54 !important;
+}
+
+/* // Hamburger container Style Start */
+
+.hamburger-container {
+  display: none;
+}
+/* // Hamburger container Style End */
+
+/* // ----- Header Desktop style end -----// */
+
+/* --------------------------------
+---- Large screen style style ----
+ ---------------------------------*/
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  .header-main-container {
+    height: 60px;
+    width: 100%;
+  }
+  .main-navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    font-size: 32px;
+    font-weight: 400;
+    padding-left: 20px;
+  }
+
+  .menu-a {
+    transition: 0.4s;
+    color: rgb(248, 247, 247);
+    display: inline-block;
+    font-size: 15px !important;
+    border-bottom: 1px solid transparent;
+    padding: 15px 20px 5px 20px !important;
+  }
+  .menu-a:hover {
+    transition: 0.4s;
+    border-bottom: 1px solid rgb(248, 247, 247);
+  }
+  .cart-part {
+    display: none;
+  }
+}
+
+/* --------------------------------
+---- Medium screen style style ----
+ ---------------------------------*/
+
+@media only screen and (max-width: 768px) {
+  .header-main-container {
+    height: 60px;
+    width: 100%;
+    position: relative;
+  }
+  .main-navbar {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    font-size: 30px;
+    font-weight: 400;
+    padding-left: 20px;
+  }
+  .menu-ul {
+    display: block;
+    transition: 0.5s;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 59px;
+    left: 0;
+    background: #032e54 !important;
+  }
+  .mobile-menu-ul {
+    width: 100%;
+    height: 250px;
+    display: block;
+    position: absolute;
+    background: #032e54 !important;
+    z-index: 9999;
+    top: 59px;
+    left: 0;
+    transition: 0.4s;
+  }
+  .menu-li {
+    display: block !important;
+    width: 100% !important;
+    text-align: center;
+    border-bottom: 1px solid rgb(248, 247, 247);
+    position: relative;
+    cursor: pointer;
+    padding: 10px 0;
+    font-size: 1.2em;
+  }
+  .menu-a {
+    color: rgb(248, 247, 247) !important;
+  }
+  .cart-part {
+    display: none;
+  }
+  .hamburger-container {
+    display: inline-block;
+  }
+  .hamburger-icon {
+    color: rgb(248, 247, 247);
+    font-size: 34px;
+  }
+}

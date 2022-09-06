@@ -1,0 +1,72 @@
+.contact-main-container {
+  width: 100%;
+  min-height: 100vh;
+  background: #032e54;
+  padding-top: 40px;
+}
+.contact-container {
+  padding: 0 50px !important;
+}
+.contact-heading {
+  color: white;
+  font-weight: 700 !important;
+  font-family: "Chivo", sans-serif !important;
+  font-size: 60px !important;
+}
+.common-input-field {
+  width: 100%;
+  border: none;
+  padding: 0 0 10px 10px;
+  background-color: transparent !important;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  font-family: "Chivo", sans-serif !important;
+  color: white;
+}
+.email-field,
+.phone-field {
+  margin-top: 20px;
+}
+.message-field {
+  height: 145px;
+}
+.common-input-field:focus {
+  outline: none;
+}
+
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #fff;
+  opacity: 0.9;
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #fff;
+  opacity: 0.9;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #fff;
+  opacity: 0.9;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #fff;
+  opacity: 0.9;
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #fff;
+  opacity: 0.9;
+}
+
+::placeholder {
+  /* Most modern browsers support this now. */
+  color: #fff;
+  opacity: 0.9;
+}
+.contact-submit-button {
+  margin-left: calc(100% - 180px) !important;
+}
+.contact-submit-button:hover {
+  background: #08c5b6 !important;
+}

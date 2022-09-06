@@ -1,0 +1,138 @@
+.carousel-caption-first {
+  left: 5%;
+  text-align: left;
+  max-width: 400px;
+  right: auto;
+  padding: 0 10px 50px 0;
+}
+.carousel-caption-second {
+  right: 5%;
+  text-align: left;
+  max-width: 400px;
+  left: auto;
+}
+
+.btn-getYourReportCarousel {
+  background-color: white;
+  color: #032e54;
+}
+.btn-startNow {
+  background: #032e54;
+  border-radius: 8px;
+  color: white;
+}
+.btn-pricingButton {
+  background: #032e54;
+  border-radius: 8px;
+  color: white;
+  margin-top: 200px;
+}
+.btn-moreInformation {
+  border: 1.5px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  opacity: 0.7;
+  color: white;
+}
+.btn-moreInformationCard {
+  border: 1.5px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  opacity: 0.7;
+  color: white;
+}
+.moreInformationCardGroup {
+  padding-top: 50px;
+  padding-left: 200px;
+}
+.carouselHeader {
+  font-size: 40px;
+}
+.carousel-control-next {
+  display: none;
+}
+.carousel-control-prev {
+  display: none;
+}
+.card-img-top {
+  width: 7vw;
+  height: 8vw;
+}
+.card-img-line {
+  padding-right: 5px;
+  height: 5px;
+  align-self: center;
+}
+.card-img-overlay.privacy {
+  margin-top: 100px;
+  text-align: left;
+  margin-left: 1000px;
+}
+.card-img-overlay.advance {
+  max-width: 500px;
+  margin-top: 100px;
+  text-align: left;
+  margin-left: 60px;
+}
+
+.card {
+  border: 0px;
+  padding: 20px;
+}
+.card.plan {
+  align-items: center;
+  justify-content: center;
+  border: 0px;
+  text-align: center;
+  padding: 20px;
+}
+.card.pricing {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px 1px #ddd;
+  margin-bottom: 1rem;
+  padding: 20px;
+  position: relative;
+  min-width: 300px;
+  min-height: 400px;
+  text-align: center;
+  color: #032e54;
+  margin-bottom: 10px;
+  margin-right: 30px;
+}
+.card-group.pricingGroup {
+  padding-top: 60px;
+  padding-left: 18%;
+}
+.pricingTitle {
+  font-size: 2rem;
+}
+.card-img-overlay.blog {
+  width: 1000px;
+  padding-top: 100px;
+  text-align: left;
+  padding-left: 60px;
+}
+.blogTitle {
+  padding-top: 20px;
+  padding-left: 10px;
+  font-size: 3rem;
+}
+.blogParagraph {
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.form-control.email {
+  max-width: 200px;
+  margin-left: 800px;
+}
+.container-privacy {
+  margin-top: 3rem;
+}
+.container-advance {
+  margin-top: 3rem;
+}
+.page-footer-all {
+  color: #032e54;
+}

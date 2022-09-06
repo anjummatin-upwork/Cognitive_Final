@@ -1,0 +1,261 @@
+.get-your-report-main-container {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.carousel-caption-first {
+  left: 5%;
+  text-align: left;
+  max-width: 400px;
+  right: auto;
+  padding: 0 10px 50px 0;
+}
+
+.carousel-caption-second {
+  right: 5%;
+  text-align: left;
+  max-width: 400px;
+  left: auto;
+}
+
+.btn-getYourReportCarousel {
+  background-color: white;
+  color: #032e54;
+}
+
+.btn-startNow {
+  background: #032e54;
+  border-radius: 8px;
+  color: white;
+}
+
+.btn-pricingButton {
+  background: #032e54;
+  border-radius: 8px;
+  color: white;
+  margin-top: 200px;
+}
+
+.btn-moreInformation {
+  border: 1.5px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  opacity: 0.7;
+  color: white;
+}
+
+.btn-moreInformationCard {
+  border: 1.5px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  opacity: 0.7;
+  color: white;
+}
+
+.moreInformationCardGroup {
+  padding-top: 50px;
+  padding-left: 200px;
+}
+
+.carouselHeader {
+  font-size: 40px;
+}
+
+.carousel-control-next {
+  display: none;
+}
+
+.carousel-control-prev {
+  display: none;
+}
+
+.card-img-top {
+  width: 7vw;
+  height: 8vw;
+}
+
+.card-img-line {
+  padding-right: 5px;
+  height: 5px;
+  align-self: center;
+}
+
+.card-img-overlay.privacy {
+  margin-top: 100px;
+  text-align: left;
+  margin-left: 1000px;
+}
+
+.card-img-overlay.advance {
+  max-width: 500px;
+  margin-top: 100px;
+  text-align: left;
+  margin-left: 60px;
+}
+
+.card {
+  border: 0px;
+  padding: 20px;
+}
+
+.card.plan {
+  align-items: center;
+  justify-content: center;
+  border: 0px;
+  text-align: center;
+  padding: 20px;
+}
+
+.card.pricing {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px 1px #ddd;
+  margin-bottom: 1rem;
+  padding: 20px;
+  position: relative;
+  min-width: 300px;
+  min-height: 400px;
+  text-align: center;
+  color: #032e54;
+  margin-bottom: 10px;
+  margin-right: 30px;
+}
+
+.card-group.pricingGroup {
+  padding-top: 60px;
+  padding-left: 18%;
+}
+
+.pricingTitle {
+  font-size: 2rem;
+}
+
+.card-img-overlay.blog {
+  width: 1000px;
+  padding-top: 100px;
+  text-align: left;
+  padding-left: 60px;
+}
+
+.blogTitle {
+  padding-top: 20px;
+  padding-left: 10px;
+  font-size: 3rem;
+}
+
+.blogParagraph {
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.form-control.email {
+  max-width: 200px;
+  margin-left: 800px;
+}
+
+.container-privacy {
+  margin-top: 3rem;
+}
+
+.container-advance {
+  margin-top: 3rem;
+}
+
+.wrapper {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+}
+
+.picContainer {
+  position: relative;
+}
+
+.pic1getYourReport {
+  background-image: url("../Files/getyourreport1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.report-wrapper {
+}
+
+.get-report-inner-container {
+  width: 100%;
+  height: 100%;
+  background-image: url("../Files/getyourreport2.png");
+  background-size: cover;
+}
+
+.getYourReportTextHeader {
+  color: #08c5b6;
+  text-align: left;
+  font-size: 48px;
+  font-family: "Chivo", sans-serif !important;
+  padding: 0 5px;
+}
+
+.getYourReportTextPara {
+  color: white;
+  margin-top: 50px;
+  padding-right: 80px;
+  font-size: 30px;
+  font-family: "Chivo", sans-serif !important;
+}
+
+.getYourReportTextPara2 {
+  color: rgba(255, 255, 255, 0.842);
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "Chivo", sans-serif !important;
+  margin-top: 22px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+}
+.report-para {
+  position: relative;
+  display: inline-block;
+  width: 53%;
+  text-align: left;
+  padding-left: 10px;
+}
+.report-para::before {
+  content: "";
+  width: 20px;
+  height: 7px;
+  background: white;
+  position: absolute;
+  left: -20px;
+  top: 10px;
+}
+.file-field {
+  width: 600px;
+  background: rgba(146, 146, 146, 0.438);
+  border-radius: 6px;
+  margin-top: 30px;
+  margin-right: 130px;
+}
+
+.getYourreportUpload {
+  color: white;
+}
+
+.css-iztdj8-MuiPaper-root-MuiCard-root {
+  min-height: 300px !important;
+}
+
+.css-fgqrxg-MuiGrid-root {
+  width: 130% !important;
+  -webkit-align-items: flex-start !important;
+}
+
+.css-1sios12-MuiTypography-root {
+  font-weight: bold !important;
+  font-size: 20px !important;
+  line-height: 24px !important;
+  color: #032e54 !important;
+}

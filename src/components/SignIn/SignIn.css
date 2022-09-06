@@ -1,0 +1,88 @@
+.logIn-left-column {
+  background-image: url("../Files/login-bg.png");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.logIn-right-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.logIn-header {
+  color: #032e54;
+}
+.logIn-input-field {
+  width: 100%;
+  border: none;
+  padding: 0 0 10px 10px;
+  background-color: transparent !important;
+  border-bottom: 1px solid #032e54;
+  font-family: "Chivo", sans-serif !important;
+  display: block;
+}
+.password {
+  margin-top: 25px;
+}
+.logIn-input-field:focus {
+  outline: none;
+}
+.login-label {
+  opacity: 0.9;
+}
+.logIn-right-column ::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #032e54;
+  font-size: 15px;
+
+  opacity: 0.9;
+}
+.logIn-right-column :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #032e54;
+  font-size: 15px;
+
+  opacity: 0.9;
+}
+.logIn-right-column ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #032e54;
+  font-size: 15px;
+
+  opacity: 0.9;
+}
+.logIn-right-column :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #032e54;
+  font-size: 15px;
+
+  opacity: 0.9;
+}
+.logIn-right-column ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #032e54;
+  font-size: 15px;
+
+  opacity: 0.9;
+}
+
+.logIn-right-column ::placeholder {
+  /* Most modern browsers support this now. */
+  color: #032e54;
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+.login-button {
+  background-color: #08c5b6 !important;
+  cursor: pointer !important;
+  padding: 5px 8px !important;
+  width: 110px !important;
+  color: white !important;
+  font-size: 13px !important;
+  margin-top: 20px !important;
+}

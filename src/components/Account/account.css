@@ -1,0 +1,9 @@
+.accountForm {
+  margin-top: 3rem;
+  margin-left: 30rem;
+  justify-content: center;
+}
+.MuiGrid-justify-xs-center-18 {
+  justify-content: center;
+  margin: 50px;
+}

@@ -1,0 +1,27 @@
+.footer-main-container {
+  width: 100%;
+  background: #ffffff;
+  padding: 15px 0;
+}
+
+.footer-right-column {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.footer-link {
+  font-size: 15px;
+  text-decoration: none;
+  color: #032e54;
+  margin: 0 45px 0 0;
+}
+@media only screen and (max-width: 970px) {
+  .footer-link {
+    margin: 0 30px 0 0;
+  }
+}
+@media only screen and (max-width: 860px) {
+  .footer-link {
+    display: none;
+  }
+}

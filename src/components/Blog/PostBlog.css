@@ -1,0 +1,55 @@
+.postBlog-main-container {
+    width: 100%;
+    min-height: 100vh;
+    background: #032e54;
+}
+
+.postBlog-main-container ::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #fff;
+    opacity: 0.9;
+}
+
+.postBlog-main-container :-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #fff;
+    opacity: 0.9;
+}
+
+.postBlog-main-container ::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #fff;
+    opacity: 0.9;
+}
+
+.postBlog-main-container :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #fff;
+    opacity: 0.9;
+}
+
+.postBlog-main-container ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #fff;
+    opacity: 0.9;
+}
+
+.postBlog-main-container ::placeholder {
+    /* Most modern browsers support this now. */
+    color: #fff;
+    opacity: 0.9;
+}
+
+.postBlog-button {
+    background: #08c5b6 !important;
+    width: 110px;
+    margin-top: 15px !important;
+}
+
+.postBlog-button:hover {
+    background: #08c5b6 !important;
+}
+
+.Img-Url {
+    visibility: hidden;
+}

@@ -1,0 +1,27 @@
+.service-card {
+  padding: 10px 15px;
+  height: 400px;
+  background: rgb(253, 253, 253);
+  box-shadow: 2px 2px 5px rgb(247, 247, 247);
+  border-radius: 7px;
+}
+.duration-tag {
+  background: #08c5b6;
+  border-radius: 2px;
+  color: white;
+  padding: 3px 0;
+  width: 170px;
+  transform: rotate(-45deg);
+  position: absolute;
+  left: -54px;
+  top: 13px;
+  text-align: center;
+  letter-spacing: 1px !important;
+  text-transform: uppercase;
+  font-size: 15px !important;
+}
+.service-title {
+  font-weight: 700 !important;
+  color: #032e54 !important;
+  margin: 20px 0 10px 0;
+}
